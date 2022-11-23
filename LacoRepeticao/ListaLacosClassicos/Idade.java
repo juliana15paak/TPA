@@ -1,4 +1,3 @@
-package teste;
 import java.util.Scanner;
 public class Idade {
 	public static void main(String args[]) {
@@ -6,7 +5,7 @@ public class Idade {
 		int idade, altura, i, idadev, idaden, media, soma;
 		soma=0;
 		for(i=0; i<10; i++) {
-			System.out.println("Digite a altura: ");
+			System.out.println("Digite a altura em centÃ­metros: ");
 			altura=in.nextInt();
 			soma=soma+altura;
 		}
@@ -25,6 +24,6 @@ public class Idade {
 				idadev=idade;
 			}
 		}
-		System.out.println("A média das alturas é "+media+"cm, a pessoa mais velha tem "+idadev+" anos, e a pessoa mais nova tem "+idaden+" anos.");
+		System.out.println("A mÃ©dia das alturas Ã© "+media+"cm, a pessoa mais velha tem "+idadev+" anos, e a pessoa mais nova tem "+idaden+" anos.");
 	}
 }
