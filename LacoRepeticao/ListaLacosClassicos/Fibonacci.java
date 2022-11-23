@@ -1,10 +1,9 @@
-package teste;
 import java.util.Scanner;
 public class Fibonacci {
 	public static void main(String args[]) {
 		Scanner in = new Scanner (System.in);
 		int proximo, posicao, anterior, atual, termo;
-		System.out.print("Digite até qual termo a sequência de Fibonacci irá:");
+		System.out.print("Digite atÃ© qual termo a sequÃªncia de Fibonacci irÃ¡:");
 		termo=in.nextInt();
 		posicao=1;
 		anterior=0;
