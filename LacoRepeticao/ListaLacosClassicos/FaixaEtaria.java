@@ -1,4 +1,3 @@
-package teams;
 import java.util.Scanner;
 public class FaixaEtaria {
 	public static void main(String args[]) {
@@ -24,12 +23,12 @@ public class FaixaEtaria {
 				f5=f5+1;
 			}
 		}
-		System.out.println("A quantidade de pessoas na faixa et·ria 1 È: "+f1+", na faixa et·ria 2 È: "+f2+", na faixa et·ria 3 È: "+f3+", na faixa et·ria 4: "+f4+" e na faixa et·ria 5: "+f5);
+		System.out.println("A quantidade de pessoas na faixa et√°ria 1 √©: "+f1+", na faixa et√°ria 2 √©: "+f2+", na faixa et√°ria 3 √©: "+f3+", na faixa et√°ria 4: "+f4+" e na faixa et√°ria 5: "+f5);
 		pf1=f1*15/100;
 		pf2=f1*15/100;
 		pf3=f1*15/100;
 		pf4=f1*15/100;
 		pf5=f1*15/100;
-		System.out.println(". A porcentagem de pessoas na faixa et·ria 1 È: "+pf1+"%, na faixa et·ria 2 È: "+pf2+"%, na faixa et·ria 3 È: "+pf3+"%, na faixa et·ria 4: "+pf4+"% e na faixa et·ria 5: "+pf5+"%");
+		System.out.println(". A porcentagem de pessoas na faixa et√°ria 1 √©: "+pf1+"%, na faixa et√°ria 2 √©: "+pf2+"%, na faixa et√°ria 3 √©: "+pf3+"%, na faixa et√°ria 4: "+pf4+"% e na faixa et√°ria 5: "+pf5+"%");
 	}
 }
