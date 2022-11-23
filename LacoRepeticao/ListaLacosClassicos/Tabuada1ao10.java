@@ -1,4 +1,3 @@
-package teams;
 public class Tabuada1ao10 {
 	public static void main (String args[]) {
 		int f, i, res;
