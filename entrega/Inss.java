@@ -4,8 +4,7 @@ public class Inss {
 		Scanner in = new Scanner (System.in);
 		int i;
 		double s, desc, salario;
-		i=1;
-		while (i<=4) {
+		for(i=1;i<5;i++){
 			System.out.println("Digite o salário: ");
 			s = in.nextDouble();
 			if (s>=2000){
@@ -18,7 +17,6 @@ public class Inss {
 				salario = s-desc;			
 				System.out.println(salario);
 			}
-			i++;
 		}
 		in.close();
 	}
