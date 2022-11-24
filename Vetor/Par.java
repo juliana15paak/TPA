@@ -5,7 +5,7 @@ public class Par {
 		int a[], i, q;
 		a = new int[10];
 		q = 0;
-		for (i=0;i<10;i++) {
+		for (i=0;i<a.length;i++) {
 			System.out.println("Digite o "+(i+1)+"° número inteiro: ");
 			a[i]=in.nextInt();
 		}
